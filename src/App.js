@@ -11,7 +11,7 @@ function App() {
     movieData.push(newMovie);
   };
   return (
-    <div className="App">
+    <div className="card">
       <Home
         title={title}
         setTitle={setTitle}

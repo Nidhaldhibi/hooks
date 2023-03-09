@@ -33,7 +33,7 @@ const AddMovie = ({ addMovie, setMovies }) => {
   return (
     <div>
       <button
-        type="button"
+        type="button"style={{ margin: "2rem", border: "solid 1px black", padding: "5px" }}
         className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
@@ -42,7 +42,7 @@ const AddMovie = ({ addMovie, setMovies }) => {
       </button>
 
       <div
-        className="modal fade"
+        className="modal fade"style={{backgroundColor: "white", margin: "8px", border: "solid 1px black"}}
         id="exampleModal"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
